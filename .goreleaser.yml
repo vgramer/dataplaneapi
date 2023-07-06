@@ -50,9 +50,6 @@ checksum:
 snapshot:
   name_template: "{{ .Tag }}-next"
 release:
-  github:
-    owner: haproxytech
-    name: dataplaneapi
   header: |
     ## Release Notes
     HAProxy Data Plane API {{.Tag}} {{.ShortCommit}}
